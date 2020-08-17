@@ -1,0 +1,16 @@
+.main-nav-active{
+    background: linear-gradient(to bottom, rgb(250, 84, 7), rgb(243, 142, 9));
+    color: #FFFFFF!important;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 3px 5px rgba(227,131,29,1);
+}
+nav{
+    background-image: url(../../assets/navbar-background.jpg);
+    font-size: 1.1rem;
+    .navbar-brand{
+        font-size: 2rem;
+    }
+}
+.exchange-time{
+    background: linear-gradient(to bottom, rgb(250, 84, 7), rgb(243, 142, 9));
+}

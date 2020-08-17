@@ -1,0 +1,25 @@
+.header-section{
+    background-color: black;
+        .site-logo{
+            a{
+                color: #FFFFFF;
+                text-transform: uppercase;
+                font-size: 1.75rem;
+                font-weight: 900;
+            }
+        }
+       nav{
+        a{
+            color: #FFFFFF!important;
+            text-transform: uppercase;
+            font-size: 0.85rem
+        }
+        a:hover{
+            color: #fd7a0e!important;
+            text-decoration: underline;
+        }
+        .main-nav-active{
+            color: #fd7a0e!important;
+        }
+       }
+}
