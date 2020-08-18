@@ -1,0 +1,20 @@
+.top-sidebar{
+    h6{
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;  
+    }
+    li{
+        border-bottom: 2px solid rgb(218, 213, 213);
+        &:last-of-type{
+            border-bottom: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 650;
+            text-transform: capitalize;
+            font-size: 1.05rem;
+        }
+    }
+}
