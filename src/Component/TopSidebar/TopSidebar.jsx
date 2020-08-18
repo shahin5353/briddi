@@ -11,8 +11,8 @@ const TopSidebar = () => {
       </h6>
       {
           [1,2,3,4,5].map((index,value)=>
-            <li className="list-unstyled py-3">
-              <Link>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam culpa
+            <li className="list-unstyled py-3" key={index}>
+              <Link to="/">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam culpa
               </Link>
             </li>
           )

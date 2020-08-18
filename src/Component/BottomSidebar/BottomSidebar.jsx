@@ -11,7 +11,7 @@ const BottomSidebar = () => {
       </h4>
     {
           [1,2,3,4,5].map((index,value)=>
-          <div className="row py-3">
+          <div className="row py-3" key={index}>
             <div className="col-lg-4 col-md-6">
               <img src={demoImg} alt="" />
             </div>

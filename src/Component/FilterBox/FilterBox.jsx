@@ -10,9 +10,9 @@ const FilterBox = () => {
      <div className="check-block px-1 py-3 mt-2">
      {
          [1,2,3,4,5,6,7].map((index,value)=>
-         <div className="form-check mt-2">
+         <div className="form-check mt-2" key={index}>
             <input type="checkbox" className="form-check-input" id={`checkbox_${index}`}/>
-            <label className="form-check-label pl-2" for={`checkbox_${index}`}>
+            <label className="form-check-label pl-2" htmlFor={`checkbox_${index}`}>
               Check
             </label>
           </div>
