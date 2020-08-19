@@ -13,7 +13,7 @@ const FeatureBlock = () => {
       <div className="row">
         {[1, 2, 3, 4].map((index, value) => (
           <div className="col-lg-6 col-md-6 col-sm-10 feature-box mb-3" key={index}>
-            <Link to="/" className="text-decoration-none text-dark">
+            <Link to="/blog" className="text-decoration-none text-dark">
               <img src={demoImg} alt="" />
               <h3 className="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, quaerat.</h3>
               <h6>

@@ -13,7 +13,7 @@ const NewsBlock = () => {
       <div className="row">
         {[1, 2, 3, 4, 5, 6].map((index, value) => (
           <div className="col-lg-4 col-md-4 col-sm-4 news-box pb-4" key={index}>
-            <Link to="/" className="text-decoration-none text-dark">
+            <Link to="/blog" className="text-decoration-none text-dark">
               <img src={demoImg} alt="" />
               <h6 className="mt-2">POLITICS</h6>
               <h5>

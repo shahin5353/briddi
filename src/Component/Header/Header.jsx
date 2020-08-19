@@ -26,7 +26,7 @@ const Header = () => {
               <NavLink
                 className="nav-link"
                 exact
-                to="/news"
+                to="/"
                 activeClassName="main-nav-active"
               >
                 news

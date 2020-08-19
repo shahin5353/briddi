@@ -1,6 +1,7 @@
 import React from "react";
 import "./BottomSidebar.scss";
 import demoImg from "../../Images/stadium.jpg";
+import { Link } from "react-router-dom";
 
 const BottomSidebar = () => {
   return (
@@ -11,7 +12,9 @@ const BottomSidebar = () => {
       </h4>
     {
           [1,2,3,4,5].map((index,value)=>
+          <Link to="/blog" className="text-dark text-decoration-none">
           <div className="row py-3" key={index}>
+           
             <div className="col-lg-4 col-md-6">
               <img src={demoImg} alt="" />
             </div>
@@ -20,7 +23,9 @@ const BottomSidebar = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure necessitatibus saepe fuga
               </h6>
             </div>
+            
           </div>
+          </Link>
           )
     }
     </div>
