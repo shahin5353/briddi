@@ -10,15 +10,15 @@ const ContentPage = () => {
     return (
         <div className="container">
             <div className="row py-4">
-                <div className="col-lg-2 col-md-2 col-sm-4">
+                <div className="col-lg-2 col-md-2 col-sm-4 d-none d-lg-block">
                     <FilterBox/>
                 </div>
-                <div className="col-lg-7 col-md-8 col-sm-12 px-4">
+                <div className="col-lg-7 col-md-8 px-4">
                     <HeroBlock/>
                     <NewsBlock/>
                     <FeatureBlock/>
                 </div>
-                <div className="col-lg-3 col-md-2 col-sm-4 last-part">
+                <div className="col-lg-3 col-md-4">
                     <TopSidebar/>
                     <BottomSidebar/>
                 </div>

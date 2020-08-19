@@ -15,10 +15,10 @@ const BottomSidebar = () => {
           <Link to="/blog" className="text-dark text-decoration-none">
           <div className="row py-3" key={index}>
            
-            <div className="col-lg-4 col-md-6">
+            <div className="col-4">
               <img src={demoImg} alt="" />
             </div>
-            <div className="col-lg-8 col-md-6">
+            <div className="col-8">
               <h6>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure necessitatibus saepe fuga
               </h6>

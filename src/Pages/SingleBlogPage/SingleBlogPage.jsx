@@ -7,10 +7,10 @@ const SingleBlogPage = () => {
     return (
         <div className="container">
         <div className="row py-4">
-            <div className="col-lg-8 col-md-8 col-sm-12 px-4">
+            <div className="col-lg-8 col-md-9 px-4">
             <SingleBlog/>
             </div>
-            <div className="col-lg-4 col-md-2 col-sm-4 last-part">
+            <div className="col-lg-4 col-md-3">
                 <TopSidebar/>
                 <BottomSidebar/>
             </div>
